@@ -19,6 +19,12 @@
         templateUrl: 'app/editEvt/newEvt.html',
         controller: 'editEventController',
         controllerAs: 'editEvt'
+      })
+      .state('editProfile', {
+        url: '/editprofile',
+        templateUrl: 'app/profile/editProfile.html',
+        controller: 'editProfileController',
+        controllerAs: 'editProfile'
       });
 
     $urlRouterProvider.otherwise('/');
